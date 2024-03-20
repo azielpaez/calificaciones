@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CALIFICACIONES</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body bgcolor="#C378E1">
+
+<div id="chartdiv"></div>
+
+<form id="taskForm">
+    <top>
+    <center>
+        CALIFICACIONES<br><hr><br>
+        <label for="taskName">Materia:</label>
+        <input type="text" id="taskName" required><br><br><br>
+        <label for="taskRating">Calificación:</label>
+        <input type="number" id="taskRating" min="0" max="100" required><br><br><br>
+        <button type="submit">Agregar</button>
+    </center>
+    </top>
+</form>
+
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
